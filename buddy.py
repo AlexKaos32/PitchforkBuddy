@@ -31,7 +31,7 @@ if args.pass_mode:
     
     modded_list = ""
     for p, line in enumerate(lines, start=1):
-        modded_list += str(p) + '\n'
+        modded_list += line
         if p % 2 == 0:
             modded_list += args.password + '\n'
     
